@@ -31,7 +31,7 @@ def run_pipeline(source : str, language : str = "english") -> dict:
         "transcript" : transcript,
         "summary" : summary,
         "action_items" : action_item,
-        "key_decision" : decisions,
+        "key_decisions" : decisions,
         "open_questions" : questions,
         "rag_chain" : rag_chain,
     }
